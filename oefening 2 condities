@@ -1,0 +1,9 @@
+\\ Main module
+START
+    juniors = [["Jeroen", "Carolinne", "Sam", "Eyup"], ["html", "css", "javascript", "php", "Java"]]
+    FOR i = 1 TO 2 DO
+        FOR y = 1 TO 4 DO
+        WRITE juniors[1][y], "is een junior van de startup Hopper en heeft als vaardigheid",  juniors[2][y]
+    ENDFOR
+    ENDFOR
+END  

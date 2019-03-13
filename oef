@@ -1,0 +1,17 @@
+\\ Main module
+START
+ a = 0
+ b = 15
+
+    WHILE a != b DO
+        READ a
+
+        IF a < b THEN
+            WRITE "to low"
+        ELSE IF a > b THEN
+             WRITE "to high"
+        ENDIF
+        ENDWHILE
+             WRITE "correct"
+
+END

@@ -1,0 +1,20 @@
+\\ Main module
+START
+      numbers = [[18,55],[29,13],[-2,15],[66,44]]
+      maxnum = 0
+      maxnum2 = 0
+            FOR i = 1 TO 4 DO
+            FOR y = 1 TO 2 DO
+
+            IF y = 1 and numbers[i][1] > maxnum THEN
+            maxnum = numbers[i][y]
+
+            ENDIF
+            IF y = 2 and numbers[i][2] > maxnum2 THEN
+            maxnum2 = numbers[i][y]
+            ENDIF
+       ENDFOR
+       ENDFOR
+       WRITE maxnum
+       WRITE maxnum2
+END
